@@ -1,0 +1,45 @@
+<iframe width="600" height="350" src=$Video frameborder="0" allowfullscreen></iframe>
+Store only "www.fnsdfjisd/embed/fdso.com" inside the $Video (Needs "")
+
+<html>$Video</html>
+store whole iframe embed code in video
+
+
+VIMEO
+<iframe src="https://player.vimeo.com/video/53476316" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+YOUTUBE
+<iframe width="560" height="315" src="https://www.youtube.com/embed/meXFCMqz4ZE" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+Student work holder working code
+
+<% include FilterBar %>
+
+<div class="row breadCrumbs">
+    $Breadcrumbs
+</div>
+
+<div id ="main">  
+	$Content
+    <div id="container" class="packery js-packery" data-packery-options='{ "columnWidth": ".grid-sizer", "itemSelector": ".item"}'>
+    <div id="content">
+        <div class="grid-sizer"></div>
+        <% loop $Children %>
+	        <div class="item">
+	            <a href="$Link">$MainPhoto</a>
+	        </div>
+	    <% end_loop %>             
+    </div>
+</div> 
+</div>
+s
